@@ -1,0 +1,756 @@
+2018-02-03 00:34:48 Notice: Notice (8): Undefined variable: id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/UsersController.php, line 35]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::profile() - APP/Controller/UsersController.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 00:44:17 Notice: Notice (8): Undefined variable: id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/UsersController.php, line 51]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 51
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 00:45:05 Notice: Notice (8): Undefined variable: id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/UsersController.php, line 52]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:39:53 Notice: Deprecated (16384): Validation::notEmpty() is deprecated. Use Validation::notBlank() instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Validation.php, line 60]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+Validation::notEmpty() - CORE/Cake/Utility/Validation.php, line 60
+CakeValidationRule::process() - CORE/Cake/Model/Validator/CakeValidationRule.php, line 277
+CakeValidationSet::validate() - CORE/Cake/Model/Validator/CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE/Cake/Model/ModelValidator.php, line 268
+ModelValidator::validates() - CORE/Cake/Model/ModelValidator.php, line 99
+Model::validates() - CORE/Cake/Model/Model.php, line 3489
+Model::_doSave() - CORE/Cake/Model/Model.php, line 1838
+Model::save() - CORE/Cake/Model/Model.php, line 1760
+CommentsController::add() - APP/Controller/CommentsController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:40:08 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Comments/edit.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:41:10 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Comments/edit.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:41:12 Notice: Deprecated (16384): Validation::notEmpty() is deprecated. Use Validation::notBlank() instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Validation.php, line 60]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+Validation::notEmpty() - CORE/Cake/Utility/Validation.php, line 60
+CakeValidationRule::process() - CORE/Cake/Model/Validator/CakeValidationRule.php, line 277
+CakeValidationSet::validate() - CORE/Cake/Model/Validator/CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE/Cake/Model/ModelValidator.php, line 268
+ModelValidator::validates() - CORE/Cake/Model/ModelValidator.php, line 99
+Model::validates() - CORE/Cake/Model/Model.php, line 3489
+Model::_doSave() - CORE/Cake/Model/Model.php, line 1838
+Model::save() - CORE/Cake/Model/Model.php, line 1760
+CommentsController::edit() - APP/Controller/CommentsController.php, line 54
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:41:35 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Comments/edit.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:41:36 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Comments/edit.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:41:36 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Comments/edit.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:41:36 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Comments/edit.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:41:36 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Comments/edit.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:41:38 Notice: Deprecated (16384): Validation::notEmpty() is deprecated. Use Validation::notBlank() instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Validation.php, line 60]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+Validation::notEmpty() - CORE/Cake/Utility/Validation.php, line 60
+CakeValidationRule::process() - CORE/Cake/Model/Validator/CakeValidationRule.php, line 277
+CakeValidationSet::validate() - CORE/Cake/Model/Validator/CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE/Cake/Model/ModelValidator.php, line 268
+ModelValidator::validates() - CORE/Cake/Model/ModelValidator.php, line 99
+Model::validates() - CORE/Cake/Model/Model.php, line 3489
+Model::_doSave() - CORE/Cake/Model/Model.php, line 1838
+Model::save() - CORE/Cake/Model/Model.php, line 1760
+CommentsController::edit() - APP/Controller/CommentsController.php, line 54
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:42:26 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Comments/edit.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:42:26 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Comments/edit.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:42:27 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Comments/edit.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:42:27 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Comments/edit.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:42:55 Notice: Notice (8): Array to string conversion in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/CommentsController.php, line 54]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CommentsController::edit() - APP/Controller/CommentsController.php, line 54
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:43:07 Notice: Notice (8): Undefined index: post_id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/CommentsController.php, line 54]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CommentsController::edit() - APP/Controller/CommentsController.php, line 54
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:43:12 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Comments/edit.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:43:14 Notice: Notice (8): Undefined index: post_id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/CommentsController.php, line 54]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CommentsController::edit() - APP/Controller/CommentsController.php, line 54
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:45:48 Notice: Notice (8): Undefined index: post_id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/CommentsController.php, line 55]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CommentsController::edit() - APP/Controller/CommentsController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:46:23 Notice: Notice (8): Undefined index: post_id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/CommentsController.php, line 55]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CommentsController::edit() - APP/Controller/CommentsController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:46:26 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Comments/edit.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:46:26 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Comments/edit.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:46:26 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Comments/edit.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:46:27 Notice: Notice (8): Undefined index: post_id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/CommentsController.php, line 55]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CommentsController::edit() - APP/Controller/CommentsController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:46:44 Notice: Notice (8): Undefined index: post_id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/CommentsController.php, line 55]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CommentsController::edit() - APP/Controller/CommentsController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:47:27 Notice: Deprecated (16384): Validation::notEmpty() is deprecated. Use Validation::notBlank() instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Validation.php, line 60]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+Validation::notEmpty() - CORE/Cake/Utility/Validation.php, line 60
+CakeValidationRule::process() - CORE/Cake/Model/Validator/CakeValidationRule.php, line 277
+CakeValidationSet::validate() - CORE/Cake/Model/Validator/CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE/Cake/Model/ModelValidator.php, line 268
+ModelValidator::validates() - CORE/Cake/Model/ModelValidator.php, line 99
+Model::validates() - CORE/Cake/Model/Model.php, line 3489
+Model::_doSave() - CORE/Cake/Model/Model.php, line 1838
+Model::save() - CORE/Cake/Model/Model.php, line 1760
+CommentsController::edit() - APP/Controller/CommentsController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:48:29 Notice: Deprecated (16384): Validation::notEmpty() is deprecated. Use Validation::notBlank() instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Validation.php, line 60]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+Validation::notEmpty() - CORE/Cake/Utility/Validation.php, line 60
+CakeValidationRule::process() - CORE/Cake/Model/Validator/CakeValidationRule.php, line 277
+CakeValidationSet::validate() - CORE/Cake/Model/Validator/CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE/Cake/Model/ModelValidator.php, line 268
+ModelValidator::validates() - CORE/Cake/Model/ModelValidator.php, line 99
+Model::validates() - CORE/Cake/Model/Model.php, line 3489
+Model::_doSave() - CORE/Cake/Model/Model.php, line 1838
+Model::save() - CORE/Cake/Model/Model.php, line 1760
+CommentsController::add() - APP/Controller/CommentsController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:50:30 Notice: Notice (8): Trying to get property of non-object in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/CommentsController.php, line 70]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CommentsController::delete() - APP/Controller/CommentsController.php, line 70
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:50:48 Notice: Notice (8): Trying to get property of non-object in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/CommentsController.php, line 71]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CommentsController::delete() - APP/Controller/CommentsController.php, line 71
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:51:15 Notice: Notice (8): Undefined index: C in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/CommentsController.php, line 70]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CommentsController::delete() - APP/Controller/CommentsController.php, line 70
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:51:15 Notice: Notice (8): Undefined variable: post_id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/CommentsController.php, line 73]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CommentsController::delete() - APP/Controller/CommentsController.php, line 73
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:52:22 Notice: Deprecated (16384): Validation::notEmpty() is deprecated. Use Validation::notBlank() instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Validation.php, line 60]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+Validation::notEmpty() - CORE/Cake/Utility/Validation.php, line 60
+CakeValidationRule::process() - CORE/Cake/Model/Validator/CakeValidationRule.php, line 277
+CakeValidationSet::validate() - CORE/Cake/Model/Validator/CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE/Cake/Model/ModelValidator.php, line 268
+ModelValidator::validates() - CORE/Cake/Model/ModelValidator.php, line 99
+Model::validates() - CORE/Cake/Model/Model.php, line 3489
+Model::_doSave() - CORE/Cake/Model/Model.php, line 1838
+Model::save() - CORE/Cake/Model/Model.php, line 1760
+CommentsController::add() - APP/Controller/CommentsController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:52:56 Notice: Notice (8): Undefined variable: id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/UsersController.php, line 34]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::profile() - APP/Controller/UsersController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:53:34 Notice: Notice (8): Undefined variable: id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/UsersController.php, line 34]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::profile() - APP/Controller/UsersController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:53:52 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Comments/edit.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:53:54 Notice: Deprecated (16384): Validation::notEmpty() is deprecated. Use Validation::notBlank() instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Validation.php, line 60]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+Validation::notEmpty() - CORE/Cake/Utility/Validation.php, line 60
+CakeValidationRule::process() - CORE/Cake/Model/Validator/CakeValidationRule.php, line 277
+CakeValidationSet::validate() - CORE/Cake/Model/Validator/CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE/Cake/Model/ModelValidator.php, line 268
+ModelValidator::validates() - CORE/Cake/Model/ModelValidator.php, line 99
+Model::validates() - CORE/Cake/Model/Model.php, line 3489
+Model::_doSave() - CORE/Cake/Model/Model.php, line 1838
+Model::save() - CORE/Cake/Model/Model.php, line 1760
+CommentsController::edit() - APP/Controller/CommentsController.php, line 55
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:54:16 Notice: Notice (8): Undefined variable: id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/UsersController.php, line 34]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::profile() - APP/Controller/UsersController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:54:31 Notice: Notice (8): Undefined variable: id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/UsersController.php, line 34]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::profile() - APP/Controller/UsersController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:54:56 Notice: Deprecated (16384): Validation::notEmpty() is deprecated. Use Validation::notBlank() instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Validation.php, line 60]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+Validation::notEmpty() - CORE/Cake/Utility/Validation.php, line 60
+CakeValidationRule::process() - CORE/Cake/Model/Validator/CakeValidationRule.php, line 277
+CakeValidationSet::validate() - CORE/Cake/Model/Validator/CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE/Cake/Model/ModelValidator.php, line 268
+ModelValidator::validates() - CORE/Cake/Model/ModelValidator.php, line 99
+Model::validates() - CORE/Cake/Model/Model.php, line 3489
+Model::_doSave() - CORE/Cake/Model/Model.php, line 1838
+Model::save() - CORE/Cake/Model/Model.php, line 1760
+UsersController::add() - APP/Controller/UsersController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:54:56 Notice: Deprecated (16384): Validation::notEmpty() is deprecated. Use Validation::notBlank() instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Validation.php, line 60]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+Validation::notEmpty() - CORE/Cake/Utility/Validation.php, line 60
+CakeValidationRule::process() - CORE/Cake/Model/Validator/CakeValidationRule.php, line 277
+CakeValidationSet::validate() - CORE/Cake/Model/Validator/CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE/Cake/Model/ModelValidator.php, line 268
+ModelValidator::validates() - CORE/Cake/Model/ModelValidator.php, line 99
+Model::validates() - CORE/Cake/Model/Model.php, line 3489
+Model::_doSave() - CORE/Cake/Model/Model.php, line 1838
+Model::save() - CORE/Cake/Model/Model.php, line 1760
+UsersController::add() - APP/Controller/UsersController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:54:56 Notice: Notice (8): Undefined index: confirm_password in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 30]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+User::beforeSave() - APP/Model/User.php, line 30
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 241
+Model::_doSave() - CORE/Cake/Model/Model.php, line 1873
+Model::save() - CORE/Cake/Model/Model.php, line 1760
+UsersController::add() - APP/Controller/UsersController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:54:56 Notice: Notice (8): Undefined index: old_password in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 31]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+User::beforeSave() - APP/Model/User.php, line 31
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 241
+Model::_doSave() - CORE/Cake/Model/Model.php, line 1873
+Model::save() - CORE/Cake/Model/Model.php, line 1760
+UsersController::add() - APP/Controller/UsersController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:54:56 Notice: Notice (8): Undefined index: new_password in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 32]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+User::beforeSave() - APP/Model/User.php, line 32
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 241
+Model::_doSave() - CORE/Cake/Model/Model.php, line 1873
+Model::save() - CORE/Cake/Model/Model.php, line 1760
+UsersController::add() - APP/Controller/UsersController.php, line 92
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:55:17 Notice: Notice (8): Undefined variable: id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/UsersController.php, line 34]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::profile() - APP/Controller/UsersController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:56:51 Notice: Notice (8): Undefined variable: id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/UsersController.php, line 34]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::profile() - APP/Controller/UsersController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:56:59 Notice: Notice (8): Undefined variable: id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/UsersController.php, line 34]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::profile() - APP/Controller/UsersController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:57:04 Notice: Notice (8): Undefined variable: id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/UsersController.php, line 34]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::profile() - APP/Controller/UsersController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:57:21 Notice: Notice (8): Undefined variable: id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/UsersController.php, line 34]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::profile() - APP/Controller/UsersController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:59:54 Notice: Deprecated (16384): Validation::notEmpty() is deprecated. Use Validation::notBlank() instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Validation.php, line 60]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+Validation::notEmpty() - CORE/Cake/Utility/Validation.php, line 60
+CakeValidationRule::process() - CORE/Cake/Model/Validator/CakeValidationRule.php, line 277
+CakeValidationSet::validate() - CORE/Cake/Model/Validator/CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE/Cake/Model/ModelValidator.php, line 268
+ModelValidator::validates() - CORE/Cake/Model/ModelValidator.php, line 99
+Model::validates() - CORE/Cake/Model/Model.php, line 3489
+Model::_doSave() - CORE/Cake/Model/Model.php, line 1838
+Model::save() - CORE/Cake/Model/Model.php, line 1760
+PostsController::add() - APP/Controller/PostsController.php, line 48
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:59:54 Notice: Deprecated (16384): Validation::notEmpty() is deprecated. Use Validation::notBlank() instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Validation.php, line 60]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+Validation::notEmpty() - CORE/Cake/Utility/Validation.php, line 60
+CakeValidationRule::process() - CORE/Cake/Model/Validator/CakeValidationRule.php, line 277
+CakeValidationSet::validate() - CORE/Cake/Model/Validator/CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE/Cake/Model/ModelValidator.php, line 268
+ModelValidator::validates() - CORE/Cake/Model/ModelValidator.php, line 99
+Model::validates() - CORE/Cake/Model/Model.php, line 3489
+Model::_doSave() - CORE/Cake/Model/Model.php, line 1838
+Model::save() - CORE/Cake/Model/Model.php, line 1760
+PostsController::add() - APP/Controller/PostsController.php, line 48
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 16:04:48 Notice: Notice (8): Undefined variable: id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/UsersController.php, line 34]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::profile() - APP/Controller/UsersController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 16:06:02 Notice: Notice (8): Undefined variable: id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/UsersController.php, line 34]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::profile() - APP/Controller/UsersController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 16:06:28 Notice: Notice (8): Undefined variable: id in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/UsersController.php, line 34]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::profile() - APP/Controller/UsersController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 16:07:49 Notice: Deprecated (16384): Validation::notEmpty() is deprecated. Use Validation::notBlank() instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Validation.php, line 60]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+Validation::notEmpty() - CORE/Cake/Utility/Validation.php, line 60
+CakeValidationRule::process() - CORE/Cake/Model/Validator/CakeValidationRule.php, line 277
+CakeValidationSet::validate() - CORE/Cake/Model/Validator/CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE/Cake/Model/ModelValidator.php, line 268
+ModelValidator::validates() - CORE/Cake/Model/ModelValidator.php, line 99
+Model::validates() - CORE/Cake/Model/Model.php, line 3489
+Model::_doSave() - CORE/Cake/Model/Model.php, line 1838
+Model::save() - CORE/Cake/Model/Model.php, line 1760
+CommentsController::add() - APP/Controller/CommentsController.php, line 44
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 16:08:07 Notice: Deprecated (16384): Validation::notEmpty() is deprecated. Use Validation::notBlank() instead. in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Validation.php, line 60]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+Validation::notEmpty() - CORE/Cake/Utility/Validation.php, line 60
+CakeValidationRule::process() - CORE/Cake/Model/Validator/CakeValidationRule.php, line 277
+CakeValidationSet::validate() - CORE/Cake/Model/Validator/CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE/Cake/Model/ModelValidator.php, line 268
+ModelValidator::validates() - CORE/Cake/Model/ModelValidator.php, line 99
+Model::validates() - CORE/Cake/Model/Model.php, line 3489
+Model::_doSave() - CORE/Cake/Model/Model.php, line 1838
+Model::save() - CORE/Cake/Model/Model.php, line 1760
+CommentsController::add() - APP/Controller/CommentsController.php, line 44
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 16:33:47 Notice: Notice (8): Undefined variable: posts in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/View/Posts/list.ctp, line 15]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Posts/list.ctp, line 15
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+

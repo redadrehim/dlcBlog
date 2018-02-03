@@ -1,0 +1,1449 @@
+2018-02-02 23:27:43 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /workspace/test/dlcBlog/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-02-03 00:30:28 Error: [MissingViewException] View file "Users/profile.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/profile.ctp',
+)
+Request URL: /workspace/test/dlcBlog/users/profile
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(470): View->_getViewFileName('Users/profile')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 00:33:53 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 567
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+BaseAuthenticate::_findUser() - CORE/Cake/Controller/Component/Auth/BaseAuthenticate.php, line 125
+FormAuthenticate::authenticate() - CORE/Cake/Controller/Component/Auth/FormAuthenticate.php, line 78
+AuthComponent::identify() - CORE/Cake/Controller/Component/AuthComponent.php, line 772
+AuthComponent::login() - CORE/Cake/Controller/Component/AuthComponent.php, line 612
+UsersController::login() - APP/Controller/UsersController.php, line 13
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 00:33:53 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::profile() - APP/Controller/UsersController.php, line 32
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 00:34:48 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::profile() - APP/Controller/UsersController.php, line 31
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 00:44:17 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::editProfile() - APP/Controller/UsersController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 00:44:17 Error: [MissingViewException] View file "Users/edit_profile.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/edit_profile.ctp',
+)
+Request URL: /workspace/test/dlcBlog/users/editProfile
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(470): View->_getViewFileName('Users/edit_prof...')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 00:45:05 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::editProfile() - APP/Controller/UsersController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 00:45:05 Error: [MissingViewException] View file "Users/edit_profile.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/edit_profile.ctp',
+)
+Request URL: /workspace/test/dlcBlog/users/editProfile
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(470): View->_getViewFileName('Users/edit_prof...')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 00:46:28 Error: [MissingViewException] View file "Users/edit_profile.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/edit_profile.ctp',
+)
+Request URL: /workspace/test/dlcBlog/users/editProfile
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(470): View->_getViewFileName('Users/edit_prof...')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 01:09:45 Error: [ParseError] syntax error, unexpected '=', expecting ',' or ')'
+Request URL: /workspace/test/dlcBlog/users/register
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-03 01:09:55 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+Request URL: /workspace/test/dlcBlog/users/register
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-03 01:25:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'where clause'
+Request URL: /workspace/test/dlcBlog/comments/index/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Model/Datasource/DboSource.php(438): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Model/Datasource/DboSource.php(675): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Model/Datasource/DboSource.php(1186): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Model/Model.php(3040): DboSource->read(Object(Comment), Array)
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Model/Model.php(3012): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/CommentsController.php(25): Model->find('all', Array)
+#7 [internal function]: CommentsController->index('1')
+#8 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#9 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-02-03 01:28:54 Error: [ArgumentCountError] Too few arguments to function CommentsController::add(), 0 passed and exactly 1 expected
+Request URL: /workspace/test/dlcBlog/comments/add
+Stack Trace:
+#0 [internal function]: CommentsController->add()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 01:31:03 Error: [ArgumentCountError] Too few arguments to function CommentsController::add(), 0 passed and exactly 1 expected
+Request URL: /workspace/test/dlcBlog/comments/add
+Stack Trace:
+#0 [internal function]: CommentsController->add()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 01:32:34 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /workspace/test/dlcBlog/comments/add/4
+Stack Trace:
+#0 [internal function]: App::load('CommentsControl...')
+#1 [internal function]: spl_autoload_call('CommentsControl...')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(266): class_exists('CommentsControl...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-03 01:32:41 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /workspace/test/dlcBlog/comments/add/4
+Stack Trace:
+#0 [internal function]: App::load('CommentsControl...')
+#1 [internal function]: spl_autoload_call('CommentsControl...')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(266): class_exists('CommentsControl...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-03 01:32:42 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /workspace/test/dlcBlog/comments/add/4
+Stack Trace:
+#0 [internal function]: App::load('CommentsControl...')
+#1 [internal function]: spl_autoload_call('CommentsControl...')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(266): class_exists('CommentsControl...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-03 01:37:13 Error: [Error] Call to a member function save() on null
+Request URL: /workspace/test/dlcBlog/comments/add/4
+Stack Trace:
+#0 [internal function]: CommentsController->add('4')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 01:37:24 Error: [Error] Call to a member function save() on null
+Request URL: /workspace/test/dlcBlog/comments/add/4
+Stack Trace:
+#0 [internal function]: CommentsController->add('4')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 01:40:41 Error: [Error] Call to a member function save() on null
+Request URL: /workspace/test/dlcBlog/comments/add/1
+Stack Trace:
+#0 [internal function]: CommentsController->add('1')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 01:45:47 Error: [ArgumentCountError] Too few arguments to function CommentsController::index(), 0 passed and exactly 1 expected
+Request URL: /workspace/test/dlcBlog/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 01:45:53 Error: [MissingActionException] Action CommentsController::4() could not be found.
+Exception Attributes: array (
+  'controller' => 'CommentsController',
+  'action' => '4',
+)
+Request URL: /workspace/test/dlcBlog/comments/4
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-02-03 01:46:01 Error: [ArgumentCountError] Too few arguments to function CommentsController::index(), 0 passed and exactly 1 expected
+Request URL: /workspace/test/dlcBlog/comments/
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 01:49:08 Error: [ArgumentCountError] Too few arguments to function CommentsController::index(), 0 passed and exactly 1 expected
+Request URL: /workspace/test/dlcBlog/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 15:10:13 Error: [ParseError] syntax error, unexpected 'parent' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /workspace/test/dlcBlog/posts/index
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 [internal function]: spl_autoload_call('PostsController')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(266): class_exists('PostsController')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-03 15:10:15 Error: [ParseError] syntax error, unexpected 'parent' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /workspace/test/dlcBlog/posts/index
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 [internal function]: spl_autoload_call('PostsController')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(266): class_exists('PostsController')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-03 15:19:59 Error: [ParseError] syntax error, unexpected '' => '' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /workspace/test/dlcBlog/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-03 15:22:07 Error: [ParseError] syntax error, unexpected '' => '' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /workspace/test/dlcBlog/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-03 15:22:25 Error: [ParseError] syntax error, unexpected '' => '' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /workspace/test/dlcBlog/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-03 15:41:12 Error: [ArgumentCountError] Too few arguments to function CommentsController::index(), 0 passed and exactly 1 expected
+Request URL: /workspace/test/dlcBlog/comments/index
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 15:41:38 Error: [ArgumentCountError] Too few arguments to function CommentsController::index(), 0 passed and exactly 1 expected
+Request URL: /workspace/test/dlcBlog/comments/index
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 15:42:24 Error: [ArgumentCountError] Too few arguments to function CommentsController::index(), 0 passed and exactly 1 expected
+Request URL: /workspace/test/dlcBlog/comments/index
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 15:42:37 Warning: Warning (4096): Object of class Comment could not be converted to string in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/CommentsController.php, line 54]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CommentsController::edit() - APP/Controller/CommentsController.php, line 54
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:47:35 Error: [ArgumentCountError] Too few arguments to function CommentsController::index(), 0 passed and exactly 1 expected
+Request URL: /workspace/test/dlcBlog/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 15:48:18 Error: [ArgumentCountError] Too few arguments to function CommentsController::index(), 0 passed and exactly 1 expected
+Request URL: /workspace/test/dlcBlog/comments/index
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 15:51:15 Warning: Warning (2): Illegal string offset 'post_id' in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Controller/CommentsController.php, line 70]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CommentsController::delete() - APP/Controller/CommentsController.php, line 70
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:51:15 Error: [ArgumentCountError] Too few arguments to function CommentsController::index(), 0 passed and exactly 1 expected
+Request URL: /workspace/test/dlcBlog/comments/index
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 15:51:21 Error: [ParseError] syntax error, unexpected ')', expecting ']'
+Request URL: /workspace/test/dlcBlog/comments/index
+Stack Trace:
+#0 [internal function]: App::load('CommentsControl...')
+#1 [internal function]: spl_autoload_call('CommentsControl...')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(266): class_exists('CommentsControl...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-03 15:51:22 Error: [ParseError] syntax error, unexpected ')', expecting ']'
+Request URL: /workspace/test/dlcBlog/comments/index
+Stack Trace:
+#0 [internal function]: App::load('CommentsControl...')
+#1 [internal function]: spl_autoload_call('CommentsControl...')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(266): class_exists('CommentsControl...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-03 15:51:28 Error: [ParseError] syntax error, unexpected ')', expecting ']'
+Request URL: /workspace/test/dlcBlog/comments/add/4
+Stack Trace:
+#0 [internal function]: App::load('CommentsControl...')
+#1 [internal function]: spl_autoload_call('CommentsControl...')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(266): class_exists('CommentsControl...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-03 15:51:39 Error: [ParseError] syntax error, unexpected ')', expecting ']'
+Request URL: /workspace/test/dlcBlog/comments/add/4
+Stack Trace:
+#0 [internal function]: App::load('CommentsControl...')
+#1 [internal function]: spl_autoload_call('CommentsControl...')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(266): class_exists('CommentsControl...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-03 15:51:43 Error: [ParseError] syntax error, unexpected ')', expecting ']'
+Request URL: /workspace/test/dlcBlog/comments/add/4
+Stack Trace:
+#0 [internal function]: App::load('CommentsControl...')
+#1 [internal function]: spl_autoload_call('CommentsControl...')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(266): class_exists('CommentsControl...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-03 15:52:56 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 567
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::profile() - APP/Controller/UsersController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:53:34 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::profile() - APP/Controller/UsersController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:54:16 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::profile() - APP/Controller/UsersController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:54:31 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::profile() - APP/Controller/UsersController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:54:37 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::index() - APP/Controller/UsersController.php, line 25
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:54:39 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+FormHelper::_getModel() - CORE/Cake/View/Helper/FormHelper.php, line 163
+FormHelper::_introspectModel() - CORE/Cake/View/Helper/FormHelper.php, line 204
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 354
+include - APP/View/Users/add.ctp, line 3
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:54:56 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::add() - APP/Controller/UsersController.php, line 91
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:54:56 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::index() - APP/Controller/UsersController.php, line 25
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:55:15 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::index() - APP/Controller/UsersController.php, line 25
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:55:17 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::profile() - APP/Controller/UsersController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:55:18 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+FormHelper::_getModel() - CORE/Cake/View/Helper/FormHelper.php, line 163
+FormHelper::_introspectModel() - CORE/Cake/View/Helper/FormHelper.php, line 204
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 354
+include - APP/View/Users/login.ctp, line 3
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:55:22 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+BaseAuthenticate::_findUser() - CORE/Cake/Controller/Component/Auth/BaseAuthenticate.php, line 125
+FormAuthenticate::authenticate() - CORE/Cake/Controller/Component/Auth/FormAuthenticate.php, line 78
+AuthComponent::identify() - CORE/Cake/Controller/Component/AuthComponent.php, line 772
+AuthComponent::login() - CORE/Cake/Controller/Component/AuthComponent.php, line 612
+UsersController::login() - APP/Controller/UsersController.php, line 12
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:55:22 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+FormHelper::_getModel() - CORE/Cake/View/Helper/FormHelper.php, line 163
+FormHelper::_introspectModel() - CORE/Cake/View/Helper/FormHelper.php, line 204
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 354
+include - APP/View/Users/login.ctp, line 3
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:55:30 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+BaseAuthenticate::_findUser() - CORE/Cake/Controller/Component/Auth/BaseAuthenticate.php, line 125
+FormAuthenticate::authenticate() - CORE/Cake/Controller/Component/Auth/FormAuthenticate.php, line 78
+AuthComponent::identify() - CORE/Cake/Controller/Component/AuthComponent.php, line 772
+AuthComponent::login() - CORE/Cake/Controller/Component/AuthComponent.php, line 612
+UsersController::login() - APP/Controller/UsersController.php, line 12
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:55:30 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+FormHelper::_getModel() - CORE/Cake/View/Helper/FormHelper.php, line 163
+FormHelper::_introspectModel() - CORE/Cake/View/Helper/FormHelper.php, line 204
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 354
+include - APP/View/Users/login.ctp, line 3
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:56:45 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+FormHelper::_getModel() - CORE/Cake/View/Helper/FormHelper.php, line 163
+FormHelper::_introspectModel() - CORE/Cake/View/Helper/FormHelper.php, line 204
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 354
+include - APP/View/Users/login.ctp, line 3
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:56:51 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+BaseAuthenticate::_findUser() - CORE/Cake/Controller/Component/Auth/BaseAuthenticate.php, line 125
+FormAuthenticate::authenticate() - CORE/Cake/Controller/Component/Auth/FormAuthenticate.php, line 78
+AuthComponent::identify() - CORE/Cake/Controller/Component/AuthComponent.php, line 772
+AuthComponent::login() - CORE/Cake/Controller/Component/AuthComponent.php, line 612
+UsersController::login() - APP/Controller/UsersController.php, line 12
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:56:51 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::profile() - APP/Controller/UsersController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:56:53 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+FormHelper::_getModel() - CORE/Cake/View/Helper/FormHelper.php, line 163
+FormHelper::_introspectModel() - CORE/Cake/View/Helper/FormHelper.php, line 204
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 354
+include - APP/View/Users/login.ctp, line 3
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:56:59 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+BaseAuthenticate::_findUser() - CORE/Cake/Controller/Component/Auth/BaseAuthenticate.php, line 125
+FormAuthenticate::authenticate() - CORE/Cake/Controller/Component/Auth/FormAuthenticate.php, line 78
+AuthComponent::identify() - CORE/Cake/Controller/Component/AuthComponent.php, line 772
+AuthComponent::login() - CORE/Cake/Controller/Component/AuthComponent.php, line 612
+UsersController::login() - APP/Controller/UsersController.php, line 12
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:56:59 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::profile() - APP/Controller/UsersController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:57:04 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::profile() - APP/Controller/UsersController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 15:57:21 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::profile() - APP/Controller/UsersController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 16:04:48 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::profile() - APP/Controller/UsersController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 16:05:06 Error: [MissingControllerException] Controller class WorkspaceController could not be found.
+Exception Attributes: array (
+  'class' => 'WorkspaceController',
+  'plugin' => NULL,
+)
+Request URL: /workspace/test/dlcBlog/workspace/test/dlcBlog/users/profile
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-03 16:05:18 Error: [MissingControllerException] Controller class WorkspaceController could not be found.
+Exception Attributes: array (
+  'class' => 'WorkspaceController',
+  'plugin' => NULL,
+)
+Request URL: /workspace/test/dlcBlog/workspace/test/dlcBlog/users/profile
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-03 16:05:30 Error: [MissingControllerException] Controller class WorkspaceController could not be found.
+Exception Attributes: array (
+  'class' => 'WorkspaceController',
+  'plugin' => NULL,
+)
+Request URL: /workspace/test/dlcBlog/workspace/test/dlcBlog/users/profile
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-03 16:05:40 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+FormHelper::_getModel() - CORE/Cake/View/Helper/FormHelper.php, line 163
+FormHelper::_introspectModel() - CORE/Cake/View/Helper/FormHelper.php, line 204
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 354
+include - APP/View/Users/login.ctp, line 3
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 16:05:46 Error: [MissingControllerException] Controller class WorkspaceController could not be found.
+Exception Attributes: array (
+  'class' => 'WorkspaceController',
+  'plugin' => NULL,
+)
+Request URL: /workspace/test/dlcBlog/workspace/test/dlcBlog/users/profile
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-03 16:06:02 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::profile() - APP/Controller/UsersController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 16:06:03 Error: [MissingControllerException] Controller class WorkspaceController could not be found.
+Exception Attributes: array (
+  'class' => 'WorkspaceController',
+  'plugin' => NULL,
+)
+Request URL: /workspace/test/dlcBlog/workspace/test/dlcBlog/users/profile
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-03 16:06:28 Warning: Warning (2): Declaration of User::beforeSave() should be compatible with Model::beforeSave($options = Array) in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/Model/User.php, line 3]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/Model/User.php, line 3
+App::load() - CORE/Cake/Core/App.php, line 547
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE/Cake/Utility/ClassRegistry.php, line 146
+Controller::loadModel() - CORE/Cake/Controller/Controller.php, line 741
+Controller::__isset() - CORE/Cake/Controller/Controller.php, line 368
+Controller::__get() - CORE/Cake/Controller/Controller.php, line 406
+UsersController::profile() - APP/Controller/UsersController.php, line 30
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 491
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 16:09:20 Error: [MissingViewException] View file "Comments/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Comments/delete.ctp',
+)
+Request URL: /workspace/test/dlcBlog/comments/delete/9
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(470): View->_getViewFileName('Comments/delete')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 16:10:23 Error: [MissingViewException] View file "Comments/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Comments/delete.ctp',
+)
+Request URL: /workspace/test/dlcBlog/comments/delete/9
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(470): View->_getViewFileName('Comments/delete')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 16:10:37 Error: [MissingViewException] View file "Comments/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Comments/delete.ctp',
+)
+Request URL: /workspace/test/dlcBlog/comments/delete/9
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(470): View->_getViewFileName('Comments/delete')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 16:33:47 Warning: Warning (2): Invalid argument supplied for foreach() in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/app/View/Posts/list.ctp, line 15]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Posts/list.ctp, line 15
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 16:35:11 Warning: Warning (2): SimpleXMLElement::__construct(): Entity: line 3: parser error : Extra content at the end of the document in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Xml.php, line 232]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+SimpleXMLElement::__construct() - [internal], line ??
+Xml::fromArray() - CORE/Cake/Utility/Xml.php, line 232
+include - APP/View/Posts/list.ctp, line 2
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 16:35:11 Warning: Warning (2): SimpleXMLElement::__construct() [<a href='http://php.net/simplexmlelement.construct'>simplexmlelement.construct</a>]: &lt;posts&gt;&lt;Post&gt;&lt;id&gt;2&lt;/id&gt;&lt;user_id&gt;0&lt;/user_id&gt;&lt;title&gt;A title once again&lt;/title&gt;&lt;bod in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Xml.php, line 232]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+SimpleXMLElement::__construct() - [internal], line ??
+Xml::fromArray() - CORE/Cake/Utility/Xml.php, line 232
+include - APP/View/Posts/list.ctp, line 2
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 16:35:11 Warning: Warning (2): SimpleXMLElement::__construct() [<a href='http://php.net/simplexmlelement.construct'>simplexmlelement.construct</a>]: ^ in [/Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Xml.php, line 232]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+SimpleXMLElement::__construct() - [internal], line ??
+Xml::fromArray() - CORE/Cake/Utility/Xml.php, line 232
+include - APP/View/Posts/list.ctp, line 2
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 963
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2018-02-03 16:35:11 Error: [Exception] String could not be parsed as XML
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Xml.php(232): SimpleXMLElement->__construct('<?xml version="...')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/View/Posts/list.ctp(2): Xml::fromArray(Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(971): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#6 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#7 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-02-03 16:36:21 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Router.php(596): Router::_loadRoutes()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(219): Router::parse('posts/list')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Event/CakeEventManager.php(243): Dispatcher->parseParams(Object(CakeEvent))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(147): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 16:36:43 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Router.php(596): Router::_loadRoutes()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(219): Router::parse('posts/list')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Event/CakeEventManager.php(243): Dispatcher->parseParams(Object(CakeEvent))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(147): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 16:37:03 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Router.php(596): Router::_loadRoutes()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(219): Router::parse('posts/list')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Event/CakeEventManager.php(243): Dispatcher->parseParams(Object(CakeEvent))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(147): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 16:37:21 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Router.php(596): Router::_loadRoutes()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(219): Router::parse('posts/list')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Event/CakeEventManager.php(243): Dispatcher->parseParams(Object(CakeEvent))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(147): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 16:38:00 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Router.php(596): Router::_loadRoutes()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(219): Router::parse('posts/list')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Event/CakeEventManager.php(243): Dispatcher->parseParams(Object(CakeEvent))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(147): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 16:38:46 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Router.php(596): Router::_loadRoutes()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(219): Router::parse('posts/list')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Event/CakeEventManager.php(243): Dispatcher->parseParams(Object(CakeEvent))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(147): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 16:38:48 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Router.php(596): Router::_loadRoutes()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(219): Router::parse('posts/list')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Event/CakeEventManager.php(243): Dispatcher->parseParams(Object(CakeEvent))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(147): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 16:39:13 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Router.php(596): Router::_loadRoutes()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(219): Router::parse('posts/list')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Event/CakeEventManager.php(243): Dispatcher->parseParams(Object(CakeEvent))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(147): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 16:39:33 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Router.php(596): Router::_loadRoutes()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(219): Router::parse('posts/list')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Event/CakeEventManager.php(243): Dispatcher->parseParams(Object(CakeEvent))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(147): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 16:39:44 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Router.php(596): Router::_loadRoutes()
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(219): Router::parse('posts/list')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Event/CakeEventManager.php(243): Dispatcher->parseParams(Object(CakeEvent))
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(147): CakeEventManager->dispatch(Object(CakeEvent))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 16:41:34 Error: [Exception] String could not be parsed as XML
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Xml.php(232): SimpleXMLElement->__construct('<?xml version="...')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/View/Posts/list.ctp(2): Xml::fromArray(Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(971): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#6 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#7 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-02-03 16:42:08 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-03 16:44:50 Error: [MissingViewException] View file "Posts/list.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/list.ctp',
+)
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(470): View->_getViewFileName('Posts/list')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-03 16:47:30 Error: [Exception] String could not be parsed as XML
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Xml.php(232): SimpleXMLElement->__construct('<?xml version="...')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/View/Posts/list.ctp(5): Xml::fromArray(Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(971): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#6 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#7 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-02-03 16:48:39 Error: [XmlException] Invalid input.
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/View/Posts/list.ctp(5): Xml::fromArray(Array)
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(971): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#6 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-02-03 16:48:53 Error: [XmlException] The key of input must be alphanumeric
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/View/Posts/list.ctp(5): Xml::fromArray(Array)
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(971): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#6 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2018-02-03 16:49:02 Error: [Exception] String could not be parsed as XML
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Xml.php(232): SimpleXMLElement->__construct('<?xml version="...')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/View/Posts/list.ctp(5): Xml::fromArray(Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(971): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#6 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#7 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-02-03 16:50:42 Error: [Exception] String could not be parsed as XML
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Xml.php(232): SimpleXMLElement->__construct('<?xml version="...')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/View/Posts/list.ctp(6): Xml::fromArray(Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(971): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#6 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#7 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-02-03 16:50:44 Error: [Exception] String could not be parsed as XML
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Xml.php(232): SimpleXMLElement->__construct('<?xml version="...')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/View/Posts/list.ctp(6): Xml::fromArray(Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(971): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#6 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#7 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-02-03 16:51:39 Error: [Exception] String could not be parsed as XML
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Xml.php(232): SimpleXMLElement->__construct('<?xml version="...')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/View/Posts/list.ctp(6): Xml::fromArray(Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(971): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#6 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#7 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-02-03 16:52:22 Error: [Exception] String could not be parsed as XML
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Xml.php(232): SimpleXMLElement->__construct('<?xml version="...')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/View/Posts/list.ctp(6): Xml::fromArray(Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(971): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#6 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#7 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-02-03 16:54:13 Error: [Exception] String could not be parsed as XML
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Xml.php(232): SimpleXMLElement->__construct('<?xml version="...')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/View/Posts/list.ctp(6): Xml::fromArray(Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(971): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#6 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#7 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-02-03 16:54:50 Error: [Exception] String could not be parsed as XML
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Xml.php(232): SimpleXMLElement->__construct('<?xml version="...')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/View/Posts/list.ctp(6): Xml::fromArray(Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(971): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#6 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#7 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-02-03 16:55:17 Error: [Exception] String could not be parsed as XML
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Xml.php(232): SimpleXMLElement->__construct('<?xml version="...')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/View/Posts/list.ctp(6): Xml::fromArray(Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(971): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#6 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#7 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-02-03 16:57:27 Error: [MissingControllerException] Controller class WorkspaceController could not be found.
+Exception Attributes: array (
+  'class' => 'WorkspaceController',
+  'plugin' => NULL,
+)
+Request URL: /workspace/test/dlcBlog/workspace/test/dlcBlog/users/profile
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-03 16:57:39 Error: [MissingControllerException] Controller class WorkspaceController could not be found.
+Exception Attributes: array (
+  'class' => 'WorkspaceController',
+  'plugin' => NULL,
+)
+Request URL: /workspace/test/dlcBlog/workspace/test/dlcBlog/posts.xml
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-03 16:57:55 Error: [MissingControllerException] Controller class WorkspaceController could not be found.
+Exception Attributes: array (
+  'class' => 'WorkspaceController',
+  'plugin' => NULL,
+)
+Request URL: /workspace/test/dlcBlog/workspace/test/dlcBlog/users/profile
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-03 16:57:59 Error: [MissingControllerException] Controller class WorkspaceController could not be found.
+Exception Attributes: array (
+  'class' => 'WorkspaceController',
+  'plugin' => NULL,
+)
+Request URL: /workspace/test/dlcBlog/workspace/test/dlcBlog/users/profile
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-03 16:58:17 Error: [MissingControllerException] Controller class WorkspaceController could not be found.
+Exception Attributes: array (
+  'class' => 'WorkspaceController',
+  'plugin' => NULL,
+)
+Request URL: /workspace/test/dlcBlog/workspace/test/dlcBlog/users/profile
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-03 17:00:12 Error: [Exception] String could not be parsed as XML
+Request URL: /workspace/test/dlcBlog/posts/list
+Stack Trace:
+#0 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Utility/Xml.php(232): SimpleXMLElement->__construct('<?xml version="...')
+#1 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/View/Posts/list.ctp(6): Xml::fromArray(Array)
+#2 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(971): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#5 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#6 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#7 /Applications/MAMP/htdocs/workspace/test/dlcBlog/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/workspace/test/dlcBlog/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
